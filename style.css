@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.placeholder {
+    height: 20px;
+    width: 100%;
+}
+
+.header {
+    height: 10px;
+    width: 1104px;
+    right: 0;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.Gmail {
+    display: inline-block;
+    float: right;
+}
+
+.GmailA {
+    display: inline-block;
+    
+    padding: 5px 30px 5px 30px;
+    line-height: 24px;
+    
+    color:#222;
+    text-decoration: none;
+    font-size: 13px;
+    font-size: small;
+    float: right;
+}
+
+.GmailA:hover {
+    text-decoration: underline;
+}
+
+
+
+.Images {
+    display: inline-block;
+   float: right;
+}
+
+.ImagesA {
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    color:#222;
+    text-decoration: none;
+    padding: 24px 10px;
+    line-height: 24px;
+    font-size: small;
+    
+    padding: 5px 30px 5px 30px;
+    line-height: 24px;
+}
+
+.ImagesA:hover {
+    text-decoration: underline;
+}
+
+.applauncher {
+}
+
+.applauncherA {
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    color:#222;
+    text-decoration: none;
+    padding: 24px 10px;
+    line-height: 24px;
+    font-size: small;
+    float: right;
+    
+    padding: 5px 30px 5px 30px;
+    line-height: 24px;
+}
+
+.applauncherA:hover {
+    text-decoration: underline;
+}
+
+
+
+.SignIn {
+    display: inline-block;
+    
+    text-decoration: none;
+    font-size: 13px;
+    /*background-image :-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));*/
+    float: right;
+}
+
+.SignInA {
+    color: black;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    font-size: small;
+    padding: 5px 30px 5px 30px;
+    line-height: 24px;
+/*background-image :-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));*/
+    /*width: 13px;
+    height: 20px;*/
+    text-align: left;
+    vertical-align:middle;
+}
+
+.SignInA:hover {
+    text-decoration: underline;
+}
+
+.signinp {
+    text-align: center;
+}
+
+.canada {
+    color: #4285f4;
+    position: absolute;
+    padding-left: 920px;
+    padding-bottom: 60px;
+    margin-top: -20px;
+}
+
+.logo {
+    padding-top: 200px;
+}
+
+.search {
+    padding-top: 50px;
+    margin-top: -15px;
+}
+
+#searcharea {
+    width:620px ;
+    height:37px !important ;
+    line-height: 26px !important;
+    z-index: 6;
+    cursor: text;
+    border: 0.5px solid lightgray;
+    font-size: 20px;
+}
+
+#searcharea:focus {
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-style: solid;
+    border-color: #4285f4;
+    padding-left: 8px;
+    font-size: 20px;
+    border-width: 1px;
+}
+
+.buttons {
+    padding-left: 800px;
+    margin-right: -50px;
+    float: left;
+}
+
+
+.GoogleSearch {
+    float: left;
+    
+}
+
+
+.Lucky {
+    float: left;
+    
+}
+
+
+
+
+
+
+.Google_Search {
+   background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    float: left;
+    
+    font-family: arial, sans-serif;
+    font-weight: bold;]
+    color:#222;
+    min-width: 54px;
+        font-size: 13px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+    
+   width: 127px;
+    height: 35px;
+}
+
+.Feeling_Lucky {
+   background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    float: left;
+    color:#222;
+    
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+    min-width: 54px;
+        font-size: 13px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    width: 127px;
+    height: 35px;
+}
+
+
