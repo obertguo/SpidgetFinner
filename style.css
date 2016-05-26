@@ -156,14 +156,15 @@
     position: relative;
     height: 100%;
     display: block;
+    
+    background-color: yellow;
 }
 
 .wrapsearch {
     /*margin-left: 33%;*/
-    padding-left: 30%;
+    padding-left: 31%;
     width: 1000px;
     position: relative;
-    background-color: yellow;
 }
 
 
