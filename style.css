@@ -160,9 +160,10 @@
 
 .wrapsearch {
     /*margin-left: 33%;*/
-    padding-left: 35%;
+    padding-left: 30%;
     width: 1000px;
     position: relative;
+    background-color: yellow;
 }
 
 
