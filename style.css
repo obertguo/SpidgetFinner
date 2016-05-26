@@ -3,6 +3,11 @@
     font-family: arial, sans-serif;
 }
 
+.bodywrapper {
+    margin-left: 0;
+    margin-right:0;
+}
+
 .placeholder {
     height: 20px;
     width: 100%;
@@ -125,28 +130,62 @@
 .canada {
     color: #4285f4;
     position: absolute;
-    padding-left: 920px;
+    padding-left:55%;
     padding-bottom: 60px;
-    margin-top: -20px;
+    margin-top: -4%;
+    
+    display: block;
+    
 }
 
 .logo {
-    padding-top: 200px;
+    padding-top: 8%;
+    overflow: hidden;
+    
+   
+    margin: auto;
+}
+
+.canadawrapper {
+    width: 100px;
 }
 
 .search {
-    padding-top: 50px;
-    margin-top: -15px;
+    padding-top: 5%;
+    margin-top: -7%;
+    position: relative;
+    height: 100%;
+    display: block;
 }
 
+.wrapsearch {
+    margin-left: 35%;
+    width: 1000px;
+    position: relative;
+}
+
+
 #searcharea {
-    width:620px ;
-    height:37px !important ;
+    width:64% ;
+    height:38px;
+    
+    min-width: 53%;
+    max-width: 53%;
     line-height: 26px !important;
     z-index: 6;
     cursor: text;
     border: 0.5px solid lightgray;
     font-size: 20px;
+    
+    position: relative;
+    
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+    background-image: url("https://lh4.ggpht.com/TB-IHpq4AEau6r8Pn4EhXRkPnSGw7eB8a368JIYPAePcKaQg8kaujtSncUHDXQmJHdA=w300");
+    background-repeat: no-repeat;
+    background-size:20px 20px;
+    background-position: 99%;
 }
 
 #searcharea:focus {
@@ -158,12 +197,15 @@
     border-style: solid;
     border-color: #4285f4;
     padding-left: 8px;
-    font-size: 20px;
+    font-size: 18px;
     border-width: 1px;
+    
+    background-image: url("https://lh4.ggpht.com/TB-IHpq4AEau6r8Pn4EhXRkPnSGw7eB8a368JIYPAePcKaQg8kaujtSncUHDXQmJHdA=w300") no-repeat scroll 5px 5px;
+
 }
 
 .buttons {
-    padding-left: 800px;
+    padding-left: 42%;
     margin-right: -50px;
     float: left;
 }
@@ -171,7 +213,7 @@
 
 .GoogleSearch {
     float: left;
-    
+    padding-right: 10px;
 }
 
 
@@ -190,7 +232,7 @@
     float: left;
     
     font-family: arial, sans-serif;
-    font-weight: bold;]
+    font-weight: bold;
     color:#222;
     min-width: 54px;
         font-size: 13px;
