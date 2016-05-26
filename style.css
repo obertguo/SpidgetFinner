@@ -167,7 +167,7 @@
 
 
 #searcharea {
-    width:73% ;
+    width:79% ;
     height:38px;
     
     min-width: 53%;
@@ -207,8 +207,10 @@
 
 .buttons {
     padding-left: 42%;
-    margin-right: -20%;
+    /*margin-right: -20%;*/
     /*padding-right: 50%;*/
+    
+    padding-right: 42%;
     float: left;
 }
 
