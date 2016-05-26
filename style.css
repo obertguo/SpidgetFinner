@@ -159,14 +159,15 @@
 }
 
 .wrapsearch {
-    margin-left: 32%;
+    /*margin-left: 33%;*/
+    padding-left: 35%;
     width: 1000px;
     position: relative;
 }
 
 
 #searcharea {
-    width:64% ;
+    width:67% ;
     height:38px;
     
     min-width: 53%;
