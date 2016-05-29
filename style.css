@@ -1,4 +1,4 @@
-       * {
+ * {
                 font-family: arial,sans-serif;
                 margin: 0;
             }
@@ -51,6 +51,29 @@
                 
             }
 			
+			.apps {
+				margin-top: 5px;
+				
+				height: 30px;
+				width:30px;
+				
+				background-position: -130px -30px;
+				box-sizing: border-box;
+				display: inline-block;
+				vertical-align: middle;
+				outline: none;
+				border-radius: 2px;
+				-webkit-border-radius:2px;
+				
+				cursor: default;
+			}
+			
+			i:hover {
+			color: black;
+			
+			}
+			
+			
 			.sign_in {
                 background-color: dodgerblue;
                 color: white;
@@ -62,12 +85,15 @@
 				padding: 8px 14px;
 				text-align: center;
 				vertical-align: middle;
+				
+				margin-left: 11px;
+				margin-bottom: 2px;
             }
     
             a {
-                
+                margin-top: -5px;
                 text-decoration: none;
-                padding: 8px 6px;
+                padding: 7px 6px;
                 color: #737373;
                 font-size: small;
             }
@@ -260,4 +286,36 @@
 				float: right;
 				white-space: nowrap;
 				padding-right: 34px;
+			}
+			
+			
+			.french {
+				margin: auto;
+				white-space: nowrap;
+				margin-top: -15px;
+			}
+			
+			
+			.message {
+				font-size: 13px;
+				color:#222;
+				white-space: nowrap;
+				margin-top: -15px;
+			}
+			
+			.french a {
+				color:#1a0dab;
+				white-space: nowrap;
+			}
+			
+			.french a:visited {
+				color:#609;
+			}
+			
+			.canada {
+				margin-top: -25px;
+				margin-left: 220px;
+				color: #4285f4;
+				font:16px/16px roboto-regular, arial, sans-serif;
+				white-space: nowrap;
 			}
