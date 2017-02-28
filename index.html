@@ -24,7 +24,8 @@
 			<div class = "main">
             <div class = "logo">
                 <center>
-                <img src = "Logo.png" height = "100px" width = "280px"/>
+                <!---<img src = "Logo.png" height = "100px" width = "280px"/>-->
+			<img src = "https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height = "100px" width = "280px"/>
 					
 					<p class = "canada">Canada</p>
                 </center>
@@ -66,7 +67,16 @@
         
         <script>
             document.getElementById("search").focus();
-        </script>
+		
+    document.getElementByClass("GoogleSearch").onclick = function () {
+        location.href = "https://obertguo.github.io/BSOD/";
+    };
+		
+		document.getElementByClass("FeelingLucky").onclick = function () {
+        location.href = "https://obertguo.github.io/BSOD/";
+    };
+</script>
+        
          
      
         </div>
